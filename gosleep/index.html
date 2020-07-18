@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en"> <!--언어설정-->
+  <head>
+    <meta charset="UTF-8" /> <!--우리사이트는 utf-8 인코딩을 하겠다.-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--보이는 부분의 content를 기기에 맞추고 확대를 할 수 있게 하겠다. -->
+    <link rel="stylesheet" href="style.css" />
+    <!--link로 외부 파일과 연결하고 그 종류는 stylesheet이고 주소는 같은 폴더 style.css 파일이다.-->
+    <title>Go Sleep</title>
+  </head>
+  <body>
+    <h1>Go Sleep</h1>
+    <div class="container" id="container">
+      <div class="circle"></div>
+      <!--div는 divied 란뜻 나누겠다는뜻이다.-->
+      <!--class는 css 와 엮을 hook을 만드는 것이다.-->
+      <!--id 는 알아볼 수 있도록 고유함을 넣어주는것이다.-->
+      <!--span은 container안에 inline으로 쓰이는것이다. -->
+      <p id="text"></p>
+      <div class="pointer-container">
+        <span class="pointer"></span>
+      </div>
+      <div class="gradient-circle"></div>
+    </div>
+    <script src="script.js"></script>
+    <!--script는 보통 js와 엮는데 주소는 src다.-->
+  </body>
+</html>
